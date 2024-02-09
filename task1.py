@@ -84,5 +84,5 @@ if __name__ == "__main__":
     
     
 # Шукаємо найбільше значення в дереві:
-    print(max_value_node(root))
-    print(sum_values(root))
+    print(max_value_node(root).val)
+    print(sum_values(root)) 

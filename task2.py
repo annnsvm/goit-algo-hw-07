@@ -17,4 +17,4 @@ if __name__ == "__main__":
     
     
 # Шукаємо найменше значення в дереві:
-    print(min_value_node(root))
+    print(min_value_node(root).val)
