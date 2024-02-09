@@ -1,4 +1,4 @@
-from task1 import sum_values, Node, insert
+from min_value import min_value_node, Node, insert
 
 
 if __name__ == "__main__":
@@ -10,11 +10,11 @@ if __name__ == "__main__":
     root = insert(root, 6)
     root = insert(root, 8)
     root = insert(root, 99)
-
+    root = insert(root, -22)
     # root = delete(root, 7)
     # print(root)
     
     
     
-# Шукаємо суму в дереві:
-    print(sum_values(root))
+# Шукаємо найменше значення в дереві:
+    print(min_value_node(root).val)
